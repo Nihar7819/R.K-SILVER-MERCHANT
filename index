@@ -275,22 +275,6 @@
       <button>Order Now</button>
     </div>
 
-    <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Bangles.jpg" alt="Bangles">
-      <h3>Bangles</h3>
-      <p>Traditional bangles for festive occasions.</p>
-      <p><strong>Price: ₹1,750</strong></p>
-      <button>Order Now</button>
-    </div>
-
-    <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Ring.jpg" alt="Silver Ring">
-      <h3>Silver Ring</h3>
-      <p>Stylish ring with elegant design.</p>
-      <p><strong>Price: ₹850</strong></p>
-      <button>Order Now</button>
-    </div>
-
   </section>
 
   <a href="https://wa.me/918367271205" class="whatsapp" target="_blank">Chat on WhatsApp</a>
