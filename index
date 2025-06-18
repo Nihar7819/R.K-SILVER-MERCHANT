@@ -179,8 +179,11 @@
 
   <section class="products">
 
+    <!-- Product Cards -->
     <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Bracelet.jpg" alt="Bracelet">
+      <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Bracelet.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Bracelet.jpg" alt="Bracelet">
+      </a>
       <h3>Bracelet</h3>
       <p>Elegant silver bracelet with classic design.</p>
       <p><strong>Price: ₹1,200</strong></p>
@@ -188,7 +191,9 @@
     </div>
 
     <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Chain.jpg" alt="Chain">
+      <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Chain.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Chain.jpg" alt="Chain">
+      </a>
       <h3>Chain</h3>
       <p>Stylish silver chain suitable for all ages.</p>
       <p><strong>Price: ₹2,300</strong></p>
@@ -196,7 +201,9 @@
     </div>
 
     <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Chain1.jpg" alt="Designer Chain">
+      <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Chain1.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Chain1.jpg" alt="Designer Chain">
+      </a>
       <h3>Designer Chain</h3>
       <p>Trendy chain with unique finishing.</p>
       <p><strong>Price: ₹2,800</strong></p>
@@ -204,7 +211,9 @@
     </div>
 
     <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/LaxmiHaram.jpg" alt="Laxmi Haram">
+      <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/LaxmiHaram.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/LaxmiHaram.jpg" alt="Laxmi Haram">
+      </a>
       <h3>Laxmi Haram</h3>
       <p>Traditional haram for festive wear.</p>
       <p><strong>Price: ₹4,500</strong></p>
@@ -212,7 +221,9 @@
     </div>
 
     <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/LongChain.jpg" alt="Long Chain">
+      <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/LongChain.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/LongChain.jpg" alt="Long Chain">
+      </a>
       <h3>Long Chain</h3>
       <p>Classic long chain in antique style.</p>
       <p><strong>Price: ₹3,200</strong></p>
@@ -220,7 +231,9 @@
     </div>
 
     <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/MenChain.jpg" alt="Men Chain">
+      <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/MenChain.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/MenChain.jpg" alt="Men Chain">
+      </a>
       <h3>Men’s Chain</h3>
       <p>Bold silver chain for men.</p>
       <p><strong>Price: ₹2,600</strong></p>
@@ -228,7 +241,9 @@
     </div>
 
     <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Necklace.jpg" alt="Necklace">
+      <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Necklace.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Necklace.jpg" alt="Necklace">
+      </a>
       <h3>Necklace</h3>
       <p>Elegant necklace for all occasions.</p>
       <p><strong>Price: ₹3,800</strong></p>
@@ -236,7 +251,9 @@
     </div>
 
     <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Necklace2.jpg" alt="Fancy Necklace">
+      <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Necklace2.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Necklace2.jpg" alt="Fancy Necklace">
+      </a>
       <h3>Fancy Necklace</h3>
       <p>Modern design with traditional touch.</p>
       <p><strong>Price: ₹4,200</strong></p>
@@ -244,7 +261,9 @@
     </div>
 
     <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/SmallNecklace.jpg" alt="Small Necklace">
+      <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/SmallNecklace.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/SmallNecklace.jpg" alt="Small Necklace">
+      </a>
       <h3>Small Necklace</h3>
       <p>Minimalist silver necklace.</p>
       <p><strong>Price: ₹2,000</strong></p>
@@ -252,7 +271,9 @@
     </div>
 
     <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Theega.jpg" alt="Theega">
+      <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Theega.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Theega.jpg" alt="Theega">
+      </a>
       <h3>Theega</h3>
       <p>Traditional Theega with rich finish.</p>
       <p><strong>Price: ₹1,800</strong></p>
@@ -260,7 +281,9 @@
     </div>
 
     <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/earrings.jpg" alt="Earrings">
+      <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/earrings.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/earrings.jpg" alt="Earrings">
+      </a>
       <h3>Earrings</h3>
       <p>Silver earrings with graceful look.</p>
       <p><strong>Price: ₹950</strong></p>
@@ -268,7 +291,9 @@
     </div>
 
     <div class="product-card">
-      <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/gold.jpg" alt="Gold Design">
+      <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/gold.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/gold.jpg" alt="Gold Design">
+      </a>
       <h3>Gold Design</h3>
       <p>Gold-finished silver ornaments.</p>
       <p><strong>Price: ₹5,500</strong></p>
