@@ -16,10 +16,19 @@
     header {
       background: #2f2f2f;
       color: #f7e9c4;
-      padding: 2rem 1rem;
+      padding: 1.5rem 1rem 1rem;
       text-align: center;
       font-family: 'Playfair Display', serif;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    .logo {
+      position: absolute;
+      top: 15px;
+      left: 20px;
+      width: 60px;
+      height: 60px;
     }
 
     header h1 {
@@ -161,15 +170,23 @@
       .product-card p {
         font-size: 0.9rem;
       }
+
+      .logo {
+        width: 50px;
+        height: 50px;
+        top: 10px;
+        left: 10px;
+      }
     }
   </style>
 </head>
 <body>
 
   <header>
+    <img class="logo" src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/logo.png" alt="Logo">
     <h1>R.K SILVER MERCHANT</h1>
     <p>Market Road, Bheemgal, Nizamabad, Telangana</p>
-    <p>📞 WhatsApp: 8367271205, 9989726768 | 📧 Email: <a href="mailto:rksilvermerchant@gmail.com">rksilvermerchant@gmail.com</a></p>
+    <p>📞 WhatsApp: 8367271205, 9989726768 | 📧 <a href="mailto:rksilvermerchant@gmail.com">rksilvermerchant@gmail.com</a></p>
   </header>
 
   <section class="hero">
@@ -178,9 +195,7 @@
   </section>
 
   <section class="products">
-
-    <!-- Product Cards -->
-    <div class="product-card">
+     <div class="product-card">
       <a href="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Bracelet.jpg" target="_blank">
         <img src="https://raw.githubusercontent.com/Nihar7819/R.K-SILVER-MERCHANT/main/Bracelet.jpg" alt="Bracelet">
       </a>
@@ -299,7 +314,6 @@
       <p><strong>Price: ₹5,500</strong></p>
       <button>Order Now</button>
     </div>
-
   </section>
 
   <a href="https://wa.me/918367271205" class="whatsapp" target="_blank">Chat on WhatsApp</a>
