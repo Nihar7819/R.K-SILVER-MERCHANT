@@ -1,91 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SLN Silver Merchant</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>R.K SILVER MERCHANT</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap" rel="stylesheet">
   <style>
     body {
+      margin: 0;
       font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
     }
-    .hero {
-      background: url('https://source.unsplash.com/1600x600/?silver,jewelry,indian') center/cover no-repeat;
-      height: 70vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+
+    header {
+      background: linear-gradient(90deg, #111, #333);
       color: white;
-      text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-    }
-    .hero h1 {
+      padding: 1.5rem 1rem;
+      text-align: center;
       font-family: 'Playfair Display', serif;
-      font-size: 3.5rem;
     }
-    .product img {
+
+    header h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    header p {
+      margin: 0.3rem 0 0;
+      font-size: 0.95rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: #e0e0e0;
+    }
+
+    .hero h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2.5rem;
+    }
+
+    .product-card {
+      border: none;
+      border-radius: 12px;
+      background: #fff;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-card img {
       width: 100%;
-      height: auto;
-      border-radius: 15px;
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
       transition: transform 0.3s ease;
     }
-    .product img:hover {
+
+    .product-card:hover img {
       transform: scale(1.05);
     }
-    .footer {
-      background: #343a40;
+
+    .product-card h3 {
+      margin: 0.75rem 0 0.25rem;
+      font-size: 1.1rem;
+      color: #2c3e50;
+    }
+
+    .product-card p {
+      margin: 0 0 1rem;
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    .product-card button {
+      background-color: #ff9800;
+      border: none;
+      padding: 10px 16px;
       color: white;
-      padding: 30px 0;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .product-card button:hover {
+      background-color: #e68900;
+    }
+
+    footer {
+      background: #111;
+      color: #ddd;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: background 0.3s ease;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .whatsapp:hover {
+      background: #1ebf59;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      .hero h2 {
+        font-size: 1.5rem;
+      }
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>R.K SILVER MERCHANT</h1> 
+    <p>Market Road, Bheemgal, Nizamabad, Telangana | WhatsApp: 8367271205, 9989726768</p> 
+  </header>
 
-<!-- Hero Banner -->
-<section class="hero text-center">
-  <div>
-    <h1>SLN SILVER MERCHANT</h1>
-    <p class="lead">Authentic Silver Jewelry from Rajaram Nagar, Bheemgal</p>
-    <a href="#products" class="btn btn-light btn-lg">Explore Collection</a>
-  </div>
-</section>
+  <section class="hero">
+    <h2>Welcome to our Silver & Gold Jewelry Collection</h2>
+    <p>Explore handcrafted ornaments for every occasion.</p>
+  </section>
 
-<!-- Product Grid -->
-<section id="products" class="container py-5">
-  <div class="text-center mb-5">
-    <h2 class="fw-bold">Our Latest Collection</h2>
-    <p>Discover finely crafted silver items for every occasion</p>
-  </div>
-  <div class="row g-4">
-    <div class="col-md-4 product">
-      <img src="https://source.unsplash.com/400x400/?silver,ring" alt="Silver Ring">
-      <h5 class="mt-2">Silver Ring</h5>
-      <p>₹1,200</p>
-      <button class="btn btn-outline-dark">Buy Now</button>
+  <section class="products">
+    <!-- Product Cards -->
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1591362051154-3e4c9b6079dc" alt="Silver Ring" />
+      <h3>Silver Ring</h3>
+      <p>Elegant handcrafted silver ring.<br><strong>₹950</strong></p>
+      <button onclick="alert('Order placed for Silver Ring!')">Buy Now</button>
     </div>
-    <div class="col-md-4 product">
-      <img src="https://source.unsplash.com/400x400/?silver,necklace" alt="Necklace">
-      <h5 class="mt-2">Silver Necklace</h5>
-      <p>₹3,500</p>
-      <button class="btn btn-outline-dark">Buy Now</button>
+    
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1585508889896-2017f8c5d5be" alt="Silver Necklace" />
+      <h3>Antique Silver Necklace</h3>
+      <p>Traditional necklace for festive occasions.<br><strong>₹2,100</strong></p>
+      <button onclick="alert('Order placed for Silver Necklace!')">Buy Now</button>
     </div>
-    <div class="col-md-4 product">
-      <img src="https://source.unsplash.com/400x400/?silver,bangles" alt="Bangles">
-      <h5 class="mt-2">Silver Bangles</h5>
-      <p>₹2,800</p>
-      <button class="btn btn-outline-dark">Buy Now</button>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1618354691325-25f4bb4a3e96" alt="Silver Bangles" />
+      <h3>Silver Bangles Set</h3>
+      <p>Set of 4 premium silver bangles.<br><strong>₹3,000</strong></p>
+      <button onclick="alert('Order placed for Silver Bangles!')">Buy Now</button>
     </div>
-  </div>
-</section>
 
-<!-- Footer -->
-<footer class="footer text-center">
-  <p>Contact us on WhatsApp: +91 8374727819</p>
-  <p>Location: Rajaram Nagar, Bheemgal, Nizamabad</p>
-  <p>Proprietor: Mr. Shyam &copy; 2025 SLN Silver Merchant</p>
-</footer>
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1615732114053-37253c7eb6d4" alt="Silver Anklet" />
+      <h3>Silver Anklet</h3>
+      <p>Graceful silver anklet with delicate design.<br><strong>₹1,750</strong></p>
+      <button onclick="alert('Order placed for Silver Anklet!')">Buy Now</button>
+    </div>
 
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1606312610193-11ec38c27ee5" alt="Gold Chain" />
+      <h3>Gold Chain</h3>
+      <p>Classic 22K chain for men.<br><strong>₹70,000</strong></p>
+      <button onclick="alert('Order placed for Gold Chain!')">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1578326452435-4c00b0c12b24" alt="Gold Earrings" />
+      <h3>Gold Stud Earrings</h3>
+      <p>Elegant daily-wear 22K studs.<br><strong>₹80,500</strong></p>
+      <button onclick="alert('Order placed for Gold Earrings!')">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1562183241-b937acb3c4f6" alt="Gold Bracelet" />
+      <h3>Men's Gold Bracelet</h3>
+      <p>Chunky bracelet with traditional touch.<br><strong>₹90,500</strong></p>
+      <button onclick="alert('Order placed for Gold Bracelet!')">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1555421689-88db5d5f9d89" alt="Engagement Ring" />
+      <h3>Couple's Ring Set</h3>
+      <p>Matching 22K rings for couples.<br><strong>₹85,200</strong></p>
+      <button onclick="alert('Order placed for Ring Set!')">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1583337130417-3346a1cfc739" alt="Gold Long Chain" />
+      <h3>Gold Long Chain</h3>
+      <p>Perfect for ceremonies & functions.<br><strong>₹90,500</strong></p>
+      <button onclick="alert('Order placed for Long Chain!')">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1605792657660-596af9009e56" alt="Laxmi Haram" />
+      <h3>Laxmi Haram</h3>
+      <p>Temple-style divine gold necklace.<br><strong>₹98,000</strong></p>
+      <button onclick="alert('Order placed for Laxmi Haram!')">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1583258292680-6f4910cc032f" alt="Gold Theega" />
+      <h3>Traditional Theega</h3>
+      <p>Spiritual gold string ornament.<br><strong>₹85,500</strong></p>
+      <button onclick="alert('Order placed for Theega!')">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1600970700423-e3cc2f9b7269" alt="Gold Nose Pin" />
+      <h3>Gold Nose Pin</h3>
+      <p>Minimalist gold nose pin design.<br><strong>₹5,200</strong></p>
+      <button onclick="alert('Order placed for Nose Pin!')">Buy Now</button>
+    </div>
+  </section>
+
+  <a href="https://wa.me/918367271205" class="whatsapp" target="_blank">Chat on WhatsApp</a> 
+
+  <footer>
+    <p>© 2025 R.K SILVER MERCHANT | Proprietor: Mr. Sripada Gopi, Sripada Vijay</p> 
+  </footer>
 </body>
 </html>
